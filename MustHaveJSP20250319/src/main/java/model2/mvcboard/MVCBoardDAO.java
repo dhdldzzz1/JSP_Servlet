@@ -117,7 +117,7 @@ public class MVCBoardDAO extends DBConnPool
 	}
    	public MVCBoardDTO selecView(String idx)
    	{
-   		MVCBoardDTO dto = new BoardDTO();
+   		MVCBoardDTO dto = new MVCBoardDTO();
 		
 		String query = "SELECT * FROM mvcvoard WHERE idx=?";
 		try
